@@ -8,7 +8,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewStub;
-
+/**
+ * @author ChenYu
+ * Author's github https://github.com/PrettyAnt
+ * <p>
+ * Created on 上午11:15  19/11/19
+ * PackageName :
+ * describle :
+ */
 public class PageFragment extends Fragment {
     @LayoutRes int sampleLayoutRes;
     @LayoutRes int practiceLayoutRes;

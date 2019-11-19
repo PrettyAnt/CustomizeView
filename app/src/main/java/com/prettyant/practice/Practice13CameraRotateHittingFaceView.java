@@ -17,6 +17,9 @@ import android.view.animation.LinearInterpolator;
 
 import com.prettyant.R;
 
+/**
+ * 结合属性动画使用
+ */
 public class Practice13CameraRotateHittingFaceView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     Bitmap bitmap;

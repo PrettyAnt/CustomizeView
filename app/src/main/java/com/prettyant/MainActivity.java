@@ -12,7 +12,14 @@ import android.view.Menu;
 
 import java.util.ArrayList;
 import java.util.List;
-
+/**
+ * @author ChenYu
+ * Author's github https://github.com/PrettyAnt
+ * <p>
+ * Created on 上午11:15  19/11/19
+ * PackageName :
+ * describle :
+ */
 public class MainActivity extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager pager;

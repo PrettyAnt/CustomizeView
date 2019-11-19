@@ -16,6 +16,9 @@ import android.view.animation.LinearInterpolator;
 
 import com.prettyant.R;
 
+/**
+ * 实现翻页效果
+ */
 public class Practice14FlipboardView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
     Bitmap bitmap;
