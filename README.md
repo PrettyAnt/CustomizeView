@@ -13,7 +13,7 @@
 
 工程下有一个 `/practice` 目录：
 
-![](images/project_practice.png)
+![](images/practice.png)
 
 你要做的是就是，在 `/practice` 下的每一个 `PracticeXxxView.java` 文件中写代码，绘制出和页面上半部分相同的效果。例如写 `Practice01ClipRectView.java` 以绘制出经过平移的图形。就像这样：
 
@@ -21,4 +21,4 @@
 
 如果做不出来，可以参考 `/sample` 目录下的代码：
 
-![](images/project_sample.png)
+![](images/sample.png)
