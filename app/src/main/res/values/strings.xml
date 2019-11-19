@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">自定义控件</string>
+    <string name="title_clip_rect">clipRect() 1</string>
+    <string name="title_clip_path">clipPath() 2</string>
+    <string name="title_translate">translate() 3</string>
+    <string name="title_scale">scale() 4</string>
+    <string name="title_rotate">rotate() 5</string>
+    <string name="title_skew">skew() 6</string>
+    <string name="title_matrix_translate">Matrix.translate() 7</string>
+    <string name="title_matrix_scale">Matrix.scale() 8</string>
+    <string name="title_matrix_rotate">Matrix.rotate() 9</string>
+    <string name="title_matrix_skew">Matrix.skew() 10</string>
+    <string name="title_camera_rotate">Camera.rotateX/Y() 11</string>
+    <string name="title_camera_rotate_fixed">Camera.rotateX/Y() 修正版12</string>
+    <string name="title_camera_rotate_hitting_face">Camera.rotateX/Y() 糊脸修正13</string>
+    <string name="title_flipboard">Flipboard 翻页效果14</string>
+    <string name="title_fill_path">setFillPath()</string>
+    <string name="title_text_path">setTextPath()</string>
+</resources>
