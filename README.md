@@ -1,4 +1,4 @@
-![](images/icon.png)
+
 
  练习项目
 ===
