@@ -16,7 +16,6 @@ import com.example.prettyant.R;
 /**
  * 裁剪
  *
- *
  * 为了直观，先让view居中显示，则可以确定左上角的坐标位置
  */
 public class Practice01ClipRectView extends View {
