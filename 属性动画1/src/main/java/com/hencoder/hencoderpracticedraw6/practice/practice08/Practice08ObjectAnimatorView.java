@@ -18,7 +18,7 @@ public class Practice08ObjectAnimatorView extends View {
     Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
     // TODO 为 progress 添加 getter 和 setter 方法（setter 方法记得加 invalidate()）
-    float progress = 0;
+    float progress = 40;
 
     public Practice08ObjectAnimatorView(Context context) {
         super(context);
@@ -36,7 +36,15 @@ public class Practice08ObjectAnimatorView extends View {
         paint.setTextSize(dpToPixel(40));
         paint.setTextAlign(Paint.Align.CENTER);
     }
+    public float getProgress() {
+        return progress;
+    }
 
+
+    public void setProgress(float progress) {
+        this.progress = progress;
+        invalidate();
+    }
     @Override
     public void onDraw(Canvas canvas) {
         super.onDraw(canvas);

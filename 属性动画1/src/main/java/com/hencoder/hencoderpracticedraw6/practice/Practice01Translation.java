@@ -9,6 +9,7 @@ import android.support.annotation.RequiresApi;
 import android.util.AttributeSet;
 import android.view.View;
 import android.view.ViewOutlineProvider;
+import android.view.ViewPropertyAnimator;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -49,6 +50,8 @@ public class Practice01Translation extends RelativeLayout {
             @Override
             public void onClick(final View v) {
                 // TODO 在这里处理点击事件，通过 View.animate().translationX/Y/Z() 来让 View 平移
+                ViewPropertyAnimator animate = imageView.animate();
+                animate.translationY(100);
             }
         });
     }

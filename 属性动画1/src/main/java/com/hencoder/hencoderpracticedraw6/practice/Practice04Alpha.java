@@ -4,6 +4,7 @@ import android.content.Context;
 import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.view.View;
+import android.view.ViewPropertyAnimator;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
@@ -37,6 +38,9 @@ public class Practice04Alpha extends RelativeLayout {
             @Override
             public void onClick(final View v) {
                 // TODO 在这里处理点击事件，通过 View.animate().alpha() 来改变 View 的透明度
+                ViewPropertyAnimator animate = imageView.animate();
+                animate.alpha(0.5f);
+
             }
         });
     }
