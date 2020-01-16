@@ -1,24 +1,17 @@
 
 
- 练习项目
-===
+### 自定义view之画笔画布
 
-### 这是什么？
+本篇为基础篇,介绍了paint canvans的基本用法，裁剪、渐变、画直线、贝塞尔曲线等等
 
-### 怎么用？
+### 属性动画1
 
-项目是一个可以直接运行的 Android App 项目，项目运行后，在手机上打开是这样的：
+本篇介绍了属性动画之平移、旋转、缩放、透明度、组合、时长等
 
-![](images/preview.png)
+### 绘制顺序
 
-工程下有一个 `/practice` 目录：
+本篇介绍了绘制顺序
 
-![](images/practice.png)
+### 对绘制的辅助Canvas和Matrix
 
-你要做的是就是，在 `/practice` 下的每一个 `PracticeXxxView.java` 文件中写代码，绘制出和页面上半部分相同的效果。例如写 `Practice01ClipRectView.java` 以绘制出经过平移的图形。就像这样：
-
-![](images/preview_after.png)
-
-如果做不出来，可以参考 `/sample` 目录下的代码：
-
-![](images/sample.png)
+本篇介绍了Canvas对绘制的辅助和Matrix、相机、三维坐标的变换等等
