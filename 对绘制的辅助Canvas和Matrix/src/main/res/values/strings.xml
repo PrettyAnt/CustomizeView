@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">自定义控件</string>
+    <string name="app_name">对绘制的辅助Canvas和Matrix</string>
     <string name="title_clip_rect">clipRect() 1</string>
     <string name="title_clip_path">clipPath() 2</string>
     <string name="title_translate">translate() 3</string>
